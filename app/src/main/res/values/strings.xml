@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="app_author"> </string>
+    <string name="app_history">History</string>
+
+    <string name="navigation_drawer_open">打开 navigation drawer</string>
+    <string name="navigation_drawer_close">关闭 navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_reset">重置参数</string>
+    <string name="action_history">历史记录</string>
+    <string name="action_expression">公式</string>
+    <string name="action_expression1">X=NB-A</string>
+    <string name="action_expression2">Y=B-(A-B)/(N-1)</string>
+    <string name="action_return">&#060;</string>
+    <string name="action_clear">清空</string>
+
+    <string name="info_expression1">补资金</string>
+    <string name="info_expression2">卖股票</string>
+
+    <string name="Value_A">总资产</string>
+    <string name="Value_B">总负债</string>
+    <string name="Value_N">维保比例</string>
+    <string name="Value_1">1</string>
+    <string name="Value_2">2</string>
+    <string name="Value_3">3</string>
+    <string name="Value_4">4</string>
+    <string name="Value_5">5</string>
+    <string name="Value_6">6</string>
+    <string name="Value_7">7</string>
+    <string name="Value_8">8</string>
+    <string name="Value_9">9</string>
+    <string name="Value_0">0</string>
+    <string name="Value_point">.</string>
+    <string name="Value_clear">c</string>
+    <string name="Value_next">继续</string>
+</resources>

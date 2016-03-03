@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anxpp.calculator.HistoryActivity">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/btn_back"
+            android:text="@string/action_return"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="@string/app_history"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn_back" />
+        <Button
+            android:id="@+id/btn_clear"
+            android:text="@string/action_clear"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/expanded_list"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
